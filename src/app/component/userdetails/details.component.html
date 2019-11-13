@@ -1,0 +1,16 @@
+<div *ngIf="user">
+  <h1>{{user.name}}</h1>
+
+  <ul>
+    <li>
+      <strong>Username:</strong> {{user.username}}<br/>
+      <strong>Email:</strong> {{user.email}}<br/>
+      <strong>Phone:</strong> {{user.phone}}
+    </li>
+    <li>
+      <agm-map [latitude]="lat" [zoom]="zoom" [longitude]="lng">
+      <agm-marker  [latitude]="lat" [longitude]="lng"></agm-marker>
+    </agm-map>
+    </li>
+  </ul>
+</div>

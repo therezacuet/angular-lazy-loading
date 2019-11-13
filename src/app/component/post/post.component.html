@@ -1,0 +1,10 @@
+
+<h1>Blog Posts</h1>
+
+<ul [@listStagger]="posts">
+  <li *ngFor="let post of posts | paginate: { itemsPerPage: 4, currentPage: p }; let i = index">
+    <a routerLink="/posts/{{post.id}}">{{ post.title }}</a>
+    <p>{{ post.body }}</p>
+  </li>
+</ul>
+<pagination-controls (pageChange)="p = $event"></pagination-controls>
