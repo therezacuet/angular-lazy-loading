@@ -1,6 +1,8 @@
 # AngularLazyLoadingExample with pagination and google map
 
-
+<img src="https://github.com/therezacuet/angular-lazy-loading/blob/master/screenshots/1.PNG"/>
+<img src="https://github.com/therezacuet/angular-lazy-loading/blob/master/screenshots/2.PNG"/>
+<img src="https://github.com/therezacuet/angular-lazy-loading/blob/master/screenshots/3.PNG"/>
 
 
 
