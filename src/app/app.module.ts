@@ -21,7 +21,7 @@ import { AgmCoreModule } from '@agm/core';
     HttpClientModule,
     NgxPaginationModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyAbG_18Ovy8f8B7v1mZjhi-nQatD7-3D_4'
+      apiKey: 'api_key_here'
     })
   ],
   providers: [],
